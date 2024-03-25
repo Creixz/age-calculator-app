@@ -40,6 +40,7 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 10rem;
     padding: 0.75rem 1.5rem;
     font-size: 2rem;
+    color: black;
     letter-spacing: 1%;
     font-weight: 700;
     border: 1px solid #DCDCDC;
@@ -91,8 +92,10 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .result__item {
     font-size: 6.5rem;
+    color: black;
     font-style: italic;
     font-weight: 900;
+    line-height: 110%;
 }
 .result__item span {
     color: #854DFF;
@@ -137,6 +140,5 @@ input[type="number"]::-webkit-outer-spin-button {
     }
     .result__item {
         font-size: 3rem;
-        line-height: 110%;
     }
 }
