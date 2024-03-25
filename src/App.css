@@ -1,0 +1,142 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional: elimina el espacio extra en algunos navegadores */
+}
+.age__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.age__container {
+    max-width: 52.5rem;
+    background-color: #FFF;
+    border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
+    padding: 3.5rem;
+    flex: 1;
+    margin: 0 2rem;
+}
+.age__form {
+    max-width: 100%;
+    width: 100%;
+}
+.age__inputs {
+    display: flex;
+    gap: 2rem;
+}
+.label__text {
+    color: #716F6F;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+.error {
+    color: #FF5959;
+}
+.input__text {
+    width: 10rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 1%;
+    font-weight: 700;
+    border: 1px solid #DCDCDC;
+    border-radius: 0.5rem;
+}
+.errorInput {
+    border-color: #FF5959;
+}
+.error__message {
+    font-size: 0.875rem;
+    font-style: italic;
+    display: block;
+    color: #FF5959; 
+    margin-top: 0.5rem;
+}
+.age__button-container {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.horizontal__line {
+    border: none;
+    flex: 1;
+    height: 1px;
+    background-color: #DCDCDC;
+}
+.secondary {
+    display: none;
+}
+.submit__button {
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #854DFF;
+    cursor: pointer;
+}
+.submit__button:hover {
+    background-color: #000;
+}
+.submit__button img {
+    width: 2.75rem;
+}
+.age__results {
+
+}
+.result__item {
+    font-size: 6.5rem;
+    font-style: italic;
+    font-weight: 900;
+}
+.result__item span {
+    color: #854DFF;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 45.8125rem) {
+    .age__container {
+        max-width: 21.4375rem;
+        padding: 3rem 1.5rem;
+        margin: 0;
+        border-radius: 1.5rem 1.5rem 6.25rem 1.5rem;
+    }
+    .age__inputs {
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .label__text {
+        font-size: 0.75rem;
+    }
+    .input__text {
+        width: 5.479375rem;
+        font-size: 1.25rem;
+        padding: 0.75rem 1rem;
+    }
+    .error__message {
+        font-size: 0.45rem;
+    }
+    .age__button-container {
+        margin-bottom: 2rem;
+    }
+    .submit__button {
+        width: 4rem;
+        height: 4rem;
+    }
+    .submit__button img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .secondary {
+        display: block;
+    }
+    .result__item {
+        font-size: 3rem;
+        line-height: 110%;
+    }
+}
